@@ -12,6 +12,8 @@ const App = () => {
       <AppWrapper>
         <Routes>
           <Route path="/" element={<Home />} />
+          {/* Github page route */}
+          <Route path="/GaelFoini_11_06072023" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/accommodation/:id" element={<Accommodation />} />
           <Route path="*" element={<Error404 />} />
