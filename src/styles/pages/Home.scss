@@ -1,14 +1,16 @@
 .grid-container {
-  margin-top: 3rem;
+  margin: 3rem 0;
   background-color: #f6f6f6;
   border-radius: 1.56rem;
   padding: 3.2rem 1.75rem;
+
   .grid {
     margin: 0;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
     gap: 3.2rem 0rem;
+
     .card {
       position: relative;
       width: 340px;

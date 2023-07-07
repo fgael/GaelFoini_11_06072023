@@ -1,0 +1,18 @@
+footer {
+  height: 209px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  img {
+    padding: 4rem 0 1rem 0;
+    width: 122px;
+    height: 39.44px;
+  }
+  p {
+    font-size: 24px;
+    font-weight: $font-medium;
+    color: white;
+  }
+}

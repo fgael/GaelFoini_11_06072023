@@ -27,7 +27,7 @@ const Home = () => {
 
   return (
     <div>
-      <Banner bannerImg={homeBanner} />
+      <Banner bannerImg={homeBanner} title="Chez vous, partout et ailleurs" />
       <div className="grid-container">
         <div className="grid">
           <AccommodationCard accommodationListings={accommodationListings} />

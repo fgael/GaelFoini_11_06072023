@@ -7,7 +7,7 @@ const AppWrapper = ({ children }) => {
   return (
     <div className="app-wrapper">
       <Header />
-      {children}
+      <main>{children}</main>
       <Footer />
     </div>
   );

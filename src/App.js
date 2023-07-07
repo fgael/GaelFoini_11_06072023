@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AppWrapper from "./components/AppWrapper";
 import Home from "./pages/Home";
@@ -7,6 +7,9 @@ import Accommodation from "./pages/Accommodation";
 import Error404 from "./pages/Error404";
 
 const App = () => {
+  useEffect(() => {
+    document.title = "Kasa";
+  }, []);
   return (
     <BrowserRouter>
       <AppWrapper>

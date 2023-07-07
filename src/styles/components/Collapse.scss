@@ -1,0 +1,44 @@
+.collapse-container {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0;
+  .collapse {
+    .collapse-header {
+      position: relative;
+      z-index: 1;
+      margin-bottom: -15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: $color-orange;
+      border-radius: 10px;
+      h3 {
+        margin: 0 0 0 1rem;
+        font-size: 24px;
+        font-weight: $font-medium;
+        color: white;
+      }
+      img {
+        height: 55px;
+        margin-right: 1rem;
+        filter: invert(100%);
+      }
+      .chevron-up {
+        transition: transform 0.3s ease;
+        transform: rotate(180deg);
+      }
+    }
+    .collapse-content {
+      position: relative;
+      z-index: 0;
+      background-color: $color-grey;
+      p {
+        margin: 0;
+        padding: 3rem 1rem 1rem 1rem;
+        color: $color-orange;
+        font-size: 24px;
+        font-weight: 400;
+      }
+    }
+  }
+}
