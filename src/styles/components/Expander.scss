@@ -1,6 +1,9 @@
 .expander-container {
   display: flex;
   justify-content: center;
+  &:last-child {
+    margin-bottom: 1rem;
+  }
   .expander.open {
     margin-bottom: 0;
   }
