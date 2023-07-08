@@ -2,8 +2,10 @@
 @import "./components/AppWrapper.scss";
 @import "./components/Header.scss";
 @import "./components/Banner.scss";
-@import "./components/Collapse.scss";
+@import "./components/Expander.scss";
 @import "./components/Footer.scss";
+@import "./pages/Home.scss";
+@import "./pages/Error404.scss";
 
 body {
   overflow-y: scroll;

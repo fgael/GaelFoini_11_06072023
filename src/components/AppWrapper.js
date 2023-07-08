@@ -3,6 +3,7 @@ import "../styles/main.scss";
 import Header from "./Header";
 import Footer from "./Footer";
 
+// composant wrapper pour englober tous les composants de l'application
 const AppWrapper = ({ children }) => {
   return (
     <div className="app-wrapper">

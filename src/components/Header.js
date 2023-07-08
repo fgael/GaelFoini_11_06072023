@@ -1,7 +1,5 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-
-// img
 import logo from "../img/logo-header.png";
 
 const NavBar = () => {

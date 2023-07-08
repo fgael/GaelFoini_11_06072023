@@ -1,0 +1,22 @@
+.error-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  .error {
+    font-size: 288px;
+    font-weight: 700;
+    color: $color-orange;
+    margin: 4rem 0;
+  }
+  .error-message {
+    font-size: 36px;
+    font-weight: 500;
+    color: $color-orange;
+  }
+  .home-link {
+    font-size: 18px;
+    font-weight: 500;
+    color: $color-orange;
+    text-decoration: underline;
+  }
+}

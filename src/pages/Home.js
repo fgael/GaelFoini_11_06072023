@@ -6,8 +6,6 @@ import Banner from "../components/Banner";
 import AccommodationCard from "../components/AccommodationCard";
 // import img
 import homeBanner from "../img/home-banner.png";
-// style
-import "../styles/pages/Home.scss";
 
 const Home = () => {
   const [accommodationListings, setAccommodationListings] = useState([]);
