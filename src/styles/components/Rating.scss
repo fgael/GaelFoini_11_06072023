@@ -1,0 +1,17 @@
+.rating-container {
+  // generateur de filter avec couleur hexa : https://css-color-filter-generator.netlify.app/
+  display: flex;
+  justify-content: flex-end;
+
+  .star {
+    filter: invert(100%) sepia(0%) saturate(5739%) hue-rotate(175deg)
+      brightness(116%) contrast(78%);
+    height: 30px;
+    margin: 0.6rem 0 0 0.5rem;
+  }
+
+  .star.active {
+    filter: invert(60%) sepia(36%) saturate(6703%) hue-rotate(326deg)
+      brightness(105%) contrast(101%);
+  }
+}

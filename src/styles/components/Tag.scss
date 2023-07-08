@@ -1,7 +1,7 @@
 .tag-container {
   display: flex;
   gap: 1rem;
-  .tag {
+  button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -9,6 +9,8 @@
     min-width: 115px;
     height: 25px;
     border-radius: 10px;
+    border: none;
+    padding: 0;
     p {
       font-size: 14px;
       font-weight: 500;
