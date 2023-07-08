@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/GaelFoini_11_06072023/static/css/main.139f2ddc.css",
-    "main.js": "/GaelFoini_11_06072023/static/js/main.99fd2f1f.js",
+    "main.css": "/GaelFoini_11_06072023/static/css/main.2030b312.css",
+    "main.js": "/GaelFoini_11_06072023/static/js/main.5fabbb3f.js",
     "static/media/about-banner.png": "/GaelFoini_11_06072023/static/media/about-banner.abab3f12f4cb82f1dfa1.png",
     "static/media/home-banner.png": "/GaelFoini_11_06072023/static/media/home-banner.d00ae7dd3ef927bb988d.png",
     "index.html": "/GaelFoini_11_06072023/index.html",
-    "main.139f2ddc.css.map": "/GaelFoini_11_06072023/static/css/main.139f2ddc.css.map",
-    "main.99fd2f1f.js.map": "/GaelFoini_11_06072023/static/js/main.99fd2f1f.js.map"
+    "static/media/chevron-left.svg": "/GaelFoini_11_06072023/static/media/chevron-left.3490f5eea08639f690a34846479b9689.svg",
+    "static/media/chevron-right.svg": "/GaelFoini_11_06072023/static/media/chevron-right.cb3e629604702ef8bc6635945ad81bd6.svg",
+    "static/media/chevron-down.svg": "/GaelFoini_11_06072023/static/media/chevron-down.da1d4548b671a011dfa46ffe6ad020cc.svg",
+    "main.2030b312.css.map": "/GaelFoini_11_06072023/static/css/main.2030b312.css.map",
+    "main.5fabbb3f.js.map": "/GaelFoini_11_06072023/static/js/main.5fabbb3f.js.map"
   },
   "entrypoints": [
-    "static/css/main.139f2ddc.css",
-    "static/js/main.99fd2f1f.js"
+    "static/css/main.2030b312.css",
+    "static/js/main.5fabbb3f.js"
   ]
 }
