@@ -15,4 +15,12 @@ footer {
     font-weight: $font-medium;
     color: white;
   }
+  @media (max-width: 768px) {
+    img {
+      padding: 0rem 0 1rem 0;
+    }
+    p {
+      font-size: 12px;
+    }
+  }
 }

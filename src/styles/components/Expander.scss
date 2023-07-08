@@ -1,8 +1,11 @@
 .expander-container {
   display: flex;
   justify-content: center;
-  margin: 3rem 0;
+  .expander.open {
+    margin-bottom: 0;
+  }
   .expander {
+    margin: 2rem 0;
     .expander-header {
       position: relative;
       z-index: 1;
@@ -41,6 +44,30 @@
         padding: 3rem 1rem 1rem 1rem;
         color: $color-orange;
         font-weight: 400;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    margin: 0;
+    .expander.open {
+      margin-bottom: 0;
+    }
+    .expander {
+      margin: 1.1rem 0;
+      .expander-header {
+        h3 {
+          font-size: 13px !important;
+        }
+        img {
+          height: 30px;
+        }
+      }
+      .expander-content {
+        p {
+          font-size: 12px !important;
+          padding: 2rem 1rem;
+        }
       }
     }
   }

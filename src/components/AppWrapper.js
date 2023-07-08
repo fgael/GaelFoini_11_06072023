@@ -7,8 +7,10 @@ import Footer from "./Footer";
 const AppWrapper = ({ children }) => {
   return (
     <div className="app-wrapper">
-      <Header />
-      <main>{children}</main>
+      <div className="main-wrapper">
+        <Header />
+        <main>{children}</main>
+      </div>
       <Footer />
     </div>
   );

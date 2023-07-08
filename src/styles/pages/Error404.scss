@@ -19,4 +19,33 @@
     color: $color-orange;
     text-decoration: underline;
   }
+
+  @media (max-width: 1024px) {
+    .error {
+      font-size: 150px;
+      margin: 6rem 0 0 0;
+    }
+    .error-message {
+      font-size: 24px;
+      max-width: 576px;
+      margin: 4rem auto;
+    }
+    .home-link {
+      margin: 5rem 0;
+      font-size: 18px;
+    }
+  }
+  @media (max-width: 768px) {
+    .error {
+      font-size: 96px;
+    }
+    .error-message {
+      font-size: 18px;
+      max-width: 260px;
+      margin: 0 auto;
+    }
+    .home-link {
+      font-size: 14px;
+    }
+  }
 }

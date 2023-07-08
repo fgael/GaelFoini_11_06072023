@@ -6,7 +6,7 @@ import aboutBannerImg from "../img/about-banner.png";
 const About = () => {
   return (
     <div className="about-container">
-      <Banner bannerImg={aboutBannerImg} />
+      <Banner bannerImg={aboutBannerImg} customHeight="223px" />
       <Expander
         title="Fiabilité"
         content="Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées  par nos équipes."

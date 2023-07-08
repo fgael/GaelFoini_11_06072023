@@ -17,4 +17,30 @@
     color: white;
     z-index: 1;
   }
+  @media (max-width: 1024px) {
+    h1 {
+      font-size: 34px;
+      top: 30%;
+    }
+  }
+
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 28px;
+      top: 35%;
+    }
+  }
+
+  @media (max-width: 576px) {
+    img {
+      height: 111px;
+    }
+    h1 {
+      font-size: 24px;
+      max-width: 248px;
+      text-align: left;
+      margin-left: 1rem;
+      top: 10%;
+    }
+  }
 }

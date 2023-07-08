@@ -1,4 +1,4 @@
-.navigation {
+.header-navigation {
   display: flex;
   padding: 2rem 0;
   align-items: center;
@@ -7,15 +7,27 @@
     display: flex;
     gap: 2rem;
     list-style-type: none;
-
     a {
       font-size: 24px;
       font-weight: $font-medium;
       color: $color-orange;
       text-decoration: none;
+
       &.active,
       &:visited {
         text-decoration: underline;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .logo-header {
+      width: 145px;
+    }
+
+    ul {
+      a {
+        font-size: 12px;
       }
     }
   }

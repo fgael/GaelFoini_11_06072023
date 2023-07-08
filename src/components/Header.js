@@ -5,9 +5,9 @@ import logo from "../img/logo-header.png";
 const NavBar = () => {
   return (
     <header>
-      <nav className="navigation">
+      <nav className="header-navigation">
         <NavLink to="/">
-          <img src={logo} alt="Logo" />
+          <img className="logo-header" src={logo} alt="Logo" />
         </NavLink>
         <ul>
           <NavLink to="/">
