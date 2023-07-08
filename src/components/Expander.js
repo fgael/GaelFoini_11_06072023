@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
-import chevronDown from "../img/chevron-down.png";
+import chevronDown from "../img/icons/chevron-down.svg";
 
 const Expander = ({ title, content, containerWidth }) => {
   // hook useState pour gérer l'état du composant

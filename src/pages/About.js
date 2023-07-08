@@ -5,7 +5,7 @@ import aboutBannerImg from "../img/about-banner.png";
 
 const About = () => {
   return (
-    <div>
+    <div className="about-container">
       <Banner bannerImg={aboutBannerImg} />
       <Expander
         title="Fiabilité"

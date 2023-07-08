@@ -1,0 +1,30 @@
+.carrousel-container {
+  position: relative;
+  .accommodation-picture {
+    height: 415px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .chevron-left,
+  .chevron-right {
+    cursor: pointer;
+    position: absolute;
+    top: 28%;
+    height: 10rem;
+    filter: invert(100%);
+  }
+  .chevron-left {
+    left: -30px;
+  }
+  .chevron-right {
+    right: -30px;
+  }
+  .picture-position {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+  }
+}
