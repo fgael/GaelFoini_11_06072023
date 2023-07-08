@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/GaelFoini_11_06072023/static/css/main.ca076221.css",
-    "main.js": "/GaelFoini_11_06072023/static/js/main.da11c877.js",
+    "main.css": "/GaelFoini_11_06072023/static/css/main.139f2ddc.css",
+    "main.js": "/GaelFoini_11_06072023/static/js/main.99fd2f1f.js",
     "static/media/about-banner.png": "/GaelFoini_11_06072023/static/media/about-banner.abab3f12f4cb82f1dfa1.png",
     "static/media/home-banner.png": "/GaelFoini_11_06072023/static/media/home-banner.d00ae7dd3ef927bb988d.png",
     "index.html": "/GaelFoini_11_06072023/index.html",
-    "main.ca076221.css.map": "/GaelFoini_11_06072023/static/css/main.ca076221.css.map",
-    "main.da11c877.js.map": "/GaelFoini_11_06072023/static/js/main.da11c877.js.map"
+    "main.139f2ddc.css.map": "/GaelFoini_11_06072023/static/css/main.139f2ddc.css.map",
+    "main.99fd2f1f.js.map": "/GaelFoini_11_06072023/static/js/main.99fd2f1f.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca076221.css",
-    "static/js/main.da11c877.js"
+    "static/css/main.139f2ddc.css",
+    "static/js/main.99fd2f1f.js"
   ]
 }
