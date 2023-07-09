@@ -27,4 +27,36 @@
     font-weight: 500;
     color: white;
   }
+  @media (max-width: 1024px) {
+    .chevron-left,
+    .chevron-right {
+      height: 6rem;
+      top: 40%;
+    }
+    .chevron-left {
+      left: -10px;
+    }
+    .chevron-right {
+      right: -10px;
+    }
+  }
+  @media (max-width: 768px) {
+    .accommodation-picture {
+      height: 255px;
+    }
+    .chevron-left,
+    .chevron-right {
+      height: 3rem;
+      top: 45%;
+    }
+    .chevron-left {
+      left: -5px;
+    }
+    .chevron-right {
+      right: -5px;
+    }
+    .picture-position {
+      display: none;
+    }
+  }
 }

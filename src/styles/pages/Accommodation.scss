@@ -2,6 +2,20 @@
   .main-top-container {
     display: flex;
     justify-content: space-between;
+    h2 {
+      font-size: 36px;
+      font-weight: $font-medium;
+      color: $color-orange;
+      margin-bottom: 0;
+    }
+    h4 {
+      font-size: 18px;
+      font-weight: $font-medium;
+      color: $color-orange;
+    }
+    .location {
+      margin-top: 0.8rem;
+    }
     .main-top-container-right {
       .host {
         display: flex;
@@ -20,18 +34,47 @@
       }
     }
   }
-  h2 {
-    font-size: 36px;
-    font-weight: $font-medium;
-    color: $color-orange;
-    margin-bottom: 0;
+  .expander-container-accommodation {
+    display: flex !important;
+    justify-content: space-between;
   }
-  h4 {
-    font-size: 18px;
-    font-weight: $font-medium;
-    color: $color-orange;
+
+  @media (max-width: 1260px) {
+    .expander-container-accommodation {
+      margin-top: 1rem;
+      display: block !important;
+    }
   }
-  .location {
-    margin-top: 0.8rem;
+  @media (max-width: 768px) {
+    .main-top-container {
+      display: block;
+      h2 {
+        font-size: 18px;
+      }
+      h4 {
+        font-size: 14px;
+      }
+      .main-top-container-right {
+        margin-top: 0.8rem;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        .host {
+          margin-top: 0;
+          .host-name {
+            font-size: 12px;
+            width: 60px;
+            margin: 0;
+          }
+          .host-picture {
+            height: 32px;
+          }
+        }
+      }
+    }
+    .expander-container-accommodation {
+      margin-top: 0;
+    }
   }
 }
