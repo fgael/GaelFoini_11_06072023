@@ -11,7 +11,7 @@ const Banner = ({ bannerImg, title, customHeight }) => {
       <img
         src={bannerImg}
         alt="Banner"
-        style={{ height: isResponsive ? customHeight : "auto" }}
+        style={{ height: isResponsive ? customHeight : "" }}
       />
       {/* affichage du titre uniquement si props fourni */}
       {title && <h1>{title}</h1>}
