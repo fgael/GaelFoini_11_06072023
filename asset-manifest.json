@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/GaelFoini_11_06072023/static/css/main.ea02be38.css",
-    "main.js": "/GaelFoini_11_06072023/static/js/main.73295af8.js",
+    "main.js": "/GaelFoini_11_06072023/static/js/main.a272fdc9.js",
     "static/media/about-banner.png": "/GaelFoini_11_06072023/static/media/about-banner.abab3f12f4cb82f1dfa1.png",
     "static/media/home-banner.png": "/GaelFoini_11_06072023/static/media/home-banner.d00ae7dd3ef927bb988d.png",
     "index.html": "/GaelFoini_11_06072023/index.html",
@@ -10,10 +10,10 @@
     "static/media/chevron-right.svg": "/GaelFoini_11_06072023/static/media/chevron-right.cb3e629604702ef8bc6635945ad81bd6.svg",
     "static/media/chevron-down.svg": "/GaelFoini_11_06072023/static/media/chevron-down.da1d4548b671a011dfa46ffe6ad020cc.svg",
     "main.ea02be38.css.map": "/GaelFoini_11_06072023/static/css/main.ea02be38.css.map",
-    "main.73295af8.js.map": "/GaelFoini_11_06072023/static/js/main.73295af8.js.map"
+    "main.a272fdc9.js.map": "/GaelFoini_11_06072023/static/js/main.a272fdc9.js.map"
   },
   "entrypoints": [
     "static/css/main.ea02be38.css",
-    "static/js/main.73295af8.js"
+    "static/js/main.a272fdc9.js"
   ]
 }
