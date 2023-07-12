@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   .expander {
-    margin-bottom: 1.2rem;
+    margin-bottom: 2rem;
     &.open {
       margin-bottom: 0;
     }
@@ -50,7 +50,7 @@
 
   @media (max-width: 768px) {
     .expander {
-      margin-bottom: 1rem;
+      margin-bottom: 1.2rem;
       &.open {
         margin-bottom: 0;
       }
