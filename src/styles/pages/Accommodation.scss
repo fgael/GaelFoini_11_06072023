@@ -37,11 +37,11 @@
   .expander-container-accommodation {
     display: flex !important;
     justify-content: space-between;
+    margin-top: 1rem;
   }
 
   @media (max-width: 1260px) {
     .expander-container-accommodation {
-      margin-top: 1rem;
       display: block !important;
     }
   }
@@ -72,9 +72,6 @@
           }
         }
       }
-    }
-    .expander-container-accommodation {
-      margin-top: 0;
     }
   }
 }

@@ -1,5 +1,5 @@
 @import "variables.scss";
-
+// components import
 @import "./components/AccommodationCard.scss";
 @import "./components/AppWrapper.scss";
 @import "./components/Banner.scss";
@@ -9,7 +9,8 @@
 @import "./components/Header.scss";
 @import "./components/Rating.scss";
 @import "./components/Tag.scss";
-
+//pages import
+@import "./pages/About.scss";
 @import "./pages/Accommodation.scss";
 @import "./pages/Home.scss";
 @import "./pages/Error404.scss";

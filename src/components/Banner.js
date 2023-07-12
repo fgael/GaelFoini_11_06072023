@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 const Banner = ({ bannerImg, title, customHeight }) => {
-  // Vérification de la largeur de l'écran
+  // vérification de la largeur de l'écran
   const isResponsive = window.innerWidth <= 768;
 
   return (
