@@ -37,7 +37,7 @@ Le site Kasa propose les fonctionnalités suivantes :
 - Utilisation des Collapse pour afficher/dissimuler des informations supplémentaires sur les logements.
 - Respect des contraintes techniques pour un code de qualité.
 
-# Mise en place
+## Mise en place
 
 Pour pouvoir utiliser le site et accéder à toutes les fonctionnalités que propose Kasa, assurez-vous d'avoir les
 
