@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+<div id="header" align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Kasa - Plateforme de location d'appartements entre particuliers
 
-## Available Scripts
+<img src="http://forthebadge.com/images/badges/built-with-love.svg" height="40px" /> <img src="https://forthebadge.com/images/badges/powered-by-coders-sweat.svg"  height="40px" />
+<br/>
+<img src="https://user.oc-static.com/upload/2022/06/24/16560899769906_FR_811_P8_Banner-Kasa%20%281%29.png" />
 
-In the project directory, you can run:
+</div>
 
-### `npm start`
+<p align="center">
+Projet Front-end React pour OpenClassrooms
+<br/>
+Par Gaël Foini
+<br/>
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## À propos
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Le projet Kasa, est une plateforme de location d'appartements entre particuliers, développée par Gaël Foini dans le cadre d'un projet Front-end pour OpenClassrooms.
 
-### `npm test`
+Maquette : https://www.figma.com/file/bAnXDNqRKCRRP8mY2gcb5p/ARCHIVE-UI-Design-Kasa-FR?type=design&node-id=0-1&mode=design&t=uNUG5zH9Ppj6kt4Q-0
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Ce projet consiste à intégrer une maquette pour le site Kasa en utilisant les technologies suivantes :
 
-### `npm run build`
+- [React](https://react.dev/)
+- [React Router](https://reactrouter.com/en/main)
+- [SCSS](https://sass-lang.com/)
+- [Javascript](https://developer.mozilla.org/fr/docs/Web/JavaScript)
+- [Node.js](https://nodejs.org/en/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Contenu du projet
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Le site Kasa propose les fonctionnalités suivantes :
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Affichage des annonces de logements à partir des données fournies dans un fichier JSON.
+- Navigation entre les différentes pages en utilisant React Router.
+- Gestion d'une galerie d'images pour chaque logement avec des fonctionnalités spécifiques.
+- Utilisation des Collapse pour afficher/dissimuler des informations supplémentaires sur les logements.
+- Respect des contraintes techniques pour un code de qualité.
 
-### `npm run eject`
+# Mise en place
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Pour pouvoir utiliser le site et accéder à toutes les fonctionnalités que propose Kasa, assurez-vous d'avoir les
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Node.js installé (version recommandée : 18.16.0)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Installation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Clonez le projet à partir de https://github.com/fgael/GaelFoini_11_06072023
 
-## Learn More
+```
+à partir du dossier cloné :
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+"npm i"
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Démarrage frontend
 
-### Code Splitting
+```
+"npm run start"
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contacts
 
-### Analyzing the Bundle Size
+Gaël Foini - gaelfoinidev@gmail.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Lien du projet : https://github.com/fgael/GaelFoini_11_06072023
