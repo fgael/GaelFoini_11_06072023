@@ -17,9 +17,9 @@ Par Gaël Foini
 
 Le projet Kasa, est une plateforme de location d'appartements entre particuliers, développée par Gaël Foini dans le cadre d'un projet Front-end pour OpenClassrooms.
 
-Maquette: https://www.figma.com/file/bAnXDNqRKCRRP8mY2gcb5p/ARCHIVE-UI-Design-Kasa-FR?type=design&node-id=0-1&mode=design&t=uNUG5zH9Ppj6kt4Q-0
+Maquette : https://www.figma.com/file/bAnXDNqRKCRRP8mY2gcb5p/ARCHIVE-UI-Design-Kasa-FR?type=design&node-id=0-1&mode=design&t=uNUG5zH9Ppj6kt4Q-0
 
-### Ce projet consiste à intégrer une maquette pour le site Kasa en utilisant les technologies suivantes:
+### Ce projet consiste à intégrer une maquette pour le site Kasa en utilisant les technologies suivantes :
 
 - [React](https://react.dev/)
 - [React Router](https://reactrouter.com/en/main)
@@ -29,7 +29,7 @@ Maquette: https://www.figma.com/file/bAnXDNqRKCRRP8mY2gcb5p/ARCHIVE-UI-Design-Ka
 
 ### Contenu du projet
 
-Le site Kasa propose les fonctionnalités suivantes:
+Le site Kasa propose les fonctionnalités suivantes :
 
 - Affichage des annonces de logements à partir des données fournies dans un fichier JSON.
 - Navigation entre les différentes pages en utilisant React Router.
@@ -39,15 +39,15 @@ Le site Kasa propose les fonctionnalités suivantes:
 
 ## Mise en place
 
-Pour pouvoir utiliser le site et accéder à toutes les fonctionnalités que propose Kasa, assurez-vous d'avoir les composants nécessaire installé:
+Pour pouvoir utiliser le site et accéder à toutes les fonctionnalités que propose Kasa, assurez-vous d'avoir les composants nécessaire installé :
 
-- [Node.js](https://nodejs.org/en/) (version recommandée: 18.16.0)
+- [Node.js](https://nodejs.org/en/) (version recommandée : 18.16.0)
 
 ## Installation
 
 Clonez le projet à partir de https://github.com/fgael/GaelFoini_11_06072023
 
-à partir du dossier cloné:
+à partir du dossier cloné :
 
 ```
 npm i
