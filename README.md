@@ -39,9 +39,9 @@ Le site Kasa propose les fonctionnalités suivantes :
 
 ## Mise en place
 
-Pour pouvoir utiliser le site et accéder à toutes les fonctionnalités que propose Kasa, assurez-vous d'avoir les composant nécessaire installé:
+Pour pouvoir utiliser le site et accéder à toutes les fonctionnalités que propose Kasa, assurez-vous d'avoir les composants nécessaire installé:
 
-- Node.js (version recommandée : 18.16.0)
+- [Node.js](https://nodejs.org/en/) (version recommandée : 18.16.0)
 
 ## Installation
 
