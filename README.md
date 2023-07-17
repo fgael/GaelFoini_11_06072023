@@ -2,8 +2,6 @@
 
 # Kasa - Plateforme de location d'appartements entre particuliers
 
-<img src="http://forthebadge.com/images/badges/built-with-love.svg" height="40px" /> <img src="https://forthebadge.com/images/badges/powered-by-coders-sweat.svg"  height="40px" />
-<br/>
 <img src="https://user.oc-static.com/upload/2022/06/24/16560899769906_FR_811_P8_Banner-Kasa%20%281%29.png" />
 
 </div>
