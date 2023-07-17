@@ -50,13 +50,13 @@ Clonez le projet à partir de https://github.com/fgael/GaelFoini_11_06072023
 ```
 à partir du dossier cloné :
 
-"npm i"
+npm i
 ```
 
 ### Démarrage frontend
 
 ```
-"npm run start"
+npm run start
 ```
 
 ## Contacts
