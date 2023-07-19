@@ -17,7 +17,9 @@ Par Gaël Foini
 
 Le projet Kasa est une plateforme de location d'appartements entre particuliers, développée par Gaël Foini dans le cadre d'un projet Front-end pour OpenClassrooms.
 
--[Maquette Figma](https://www.figma.com/file/bAnXDNqRKCRRP8mY2gcb5p/ARCHIVE-UI-Design-Kasa-FR?type=design&node-id=0-1&mode=design&t=uNUG5zH9Ppj6kt4Q-0)
+- [Maquette Figma](https://www.figma.com/file/bAnXDNqRKCRRP8mY2gcb5p/ARCHIVE-UI-Design-Kasa-FR?type=design&node-id=0-1&mode=design&t=uNUG5zH9Ppj6kt4Q-0)
+
+![Aperçu Maquette](https://www.figma.com/file/bAnXDNqRKCRRP8mY2gcb5p/ARCHIVE-UI-Design-Kasa-FR?type=design&node-id=0%3A1&mode=design&t=jl5eqI9Ze7VutYaV-1)
 
 ### Ce projet consiste à intégrer une maquette pour le site Kasa en utilisant les technologies suivantes :
 
@@ -45,7 +47,7 @@ Pour pouvoir utiliser le site et accéder à toutes les fonctionnalités que pro
 
 ## Installation
 
-Cloné le projet à partir de https://github.com/fgael/GaelFoini_11_06072023
+Clonez le projet à partir de https://github.com/fgael/GaelFoini_11_06072023
 
 ```
 git clone https://github.com/fgael/GaelFoini_11_06072023.git
