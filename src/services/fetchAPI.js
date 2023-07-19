@@ -1,5 +1,6 @@
 const API_URL = process.env.PUBLIC_URL + "/accommodationListings.json";
 
+// fetch depuis JSON
 export const fetchAccommodationListings = async () => {
   try {
     const response = await fetch(API_URL);
@@ -11,6 +12,7 @@ export const fetchAccommodationListings = async () => {
   }
 };
 
+// fetch depuis JSON by id
 export const fetchAccommodationById = async (id) => {
   try {
     const response = await fetch(API_URL);

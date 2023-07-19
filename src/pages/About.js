@@ -6,8 +6,10 @@ import aboutBannerImg from "../img/about-banner.png";
 const About = () => {
   return (
     <div className="about-container">
+      {/* appel du composant banner avec props fourni */}
       <Banner bannerImg={aboutBannerImg} customHeight="223px" />
       <div className="expander-container-about">
+        {/* appel du composant expander avec props fourni */}
         <Expander
           title="Fiabilité"
           content="Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées  par nos équipes."

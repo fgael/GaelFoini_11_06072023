@@ -6,9 +6,11 @@ const NavBar = () => {
   return (
     <header>
       <nav className="header-navigation">
+        {/* logo */}
         <NavLink to="/">
           <img className="logo-header" src={logo} alt="Logo" />
         </NavLink>
+        {/* liste de lien */}
         <ul>
           <NavLink to="/">
             <li>Accueil</li>

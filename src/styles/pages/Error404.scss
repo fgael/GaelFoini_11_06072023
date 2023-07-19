@@ -14,7 +14,7 @@
     color: $color-orange;
   }
   .home-link {
-    font-size: 18px;
+    font-size: $font-medium;
     font-weight: 500;
     color: $color-orange;
     text-decoration: underline;
@@ -26,13 +26,13 @@
       margin: 6rem 0 0 0;
     }
     .error-message {
-      font-size: 24px;
+      font-size: $font-high;
       max-width: 576px;
       margin: 4rem auto;
     }
     .home-link {
       margin: 5rem 0;
-      font-size: 18px;
+      font-size: $font-medium;
     }
   }
   @media (max-width: 768px) {
@@ -40,12 +40,12 @@
       font-size: 96px;
     }
     .error-message {
-      font-size: 18px;
+      font-size: $font-medium;
       max-width: 260px;
       margin: 0 auto;
     }
     .home-link {
-      font-size: 14px;
+      font-size: $font-small;
     }
   }
 }

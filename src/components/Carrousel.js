@@ -3,24 +3,29 @@ import chevronLeft from "../img/icons/chevron-left.svg";
 import chevronRight from "../img/icons/chevron-right.svg";
 
 const Carrousel = ({ accommodation }) => {
+  // definition des variables d'etat à l'aide du hook useState
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
+  // fonction pour passer vers l'image précédente
   const handlePrevImage = () => {
     setCurrentImageIndex((prevIndex) =>
       prevIndex === 0 ? accommodation.pictures.length - 1 : prevIndex - 1
     );
   };
 
+  // fonction pour passer vers l'image suivante
   const handleNextImage = () => {
     setCurrentImageIndex(
       (prevIndex) => (prevIndex + 1) % accommodation.pictures.length
     );
   };
 
+  /* détermination de la position actuelle dans le carroussel */
   const currentPosition = `${currentImageIndex + 1}/${
     accommodation.pictures.length
   }`;
 
+  // ne pas affichier les fleches si une seule image
   if (Object.keys(accommodation).length === 0) {
     return null;
   }
