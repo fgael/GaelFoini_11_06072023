@@ -19,8 +19,6 @@ Le projet Kasa est une plateforme de location d'appartements entre particuliers,
 
 - [Maquette Figma](https://www.figma.com/file/bAnXDNqRKCRRP8mY2gcb5p/ARCHIVE-UI-Design-Kasa-FR?type=design&node-id=0-1&mode=design&t=uNUG5zH9Ppj6kt4Q-0)
 
-![Aperçu Maquette](https://www.figma.com/file/bAnXDNqRKCRRP8mY2gcb5p/ARCHIVE-UI-Design-Kasa-FR?type=design&node-id=0%3A1&mode=design&t=jl5eqI9Ze7VutYaV-1)
-
 ### Ce projet consiste à intégrer une maquette pour le site Kasa en utilisant les technologies suivantes :
 
 - [React](https://react.dev/)
