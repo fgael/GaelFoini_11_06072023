@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import chevronLeft from "../img/icons/chevron-left.svg";
-import chevronRight from "../img/icons/chevron-right.svg";
+import chevronLeft from "../assets/icons/chevron-left.svg";
+import chevronRight from "../assets/icons/chevron-right.svg";
 
 const Carrousel = ({ accommodation }) => {
   // definition des variables d'etat à l'aide du hook useState

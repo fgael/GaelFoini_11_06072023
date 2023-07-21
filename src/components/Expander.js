@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
-import chevronDown from "../img/icons/chevron-down.svg";
+import chevronDown from "../assets/icons/chevron-down.svg";
 
 const Expander = ({
   title,

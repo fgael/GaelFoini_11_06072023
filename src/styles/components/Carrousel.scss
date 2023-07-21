@@ -23,8 +23,8 @@
     position: absolute;
     top: 85%;
     left: 50%;
-    font-size: 18px;
-    font-weight: 500;
+    font-size: $font-medium;
+    font-weight: $font-weight-medium;
     color: white;
   }
   @media (max-width: 1024px) {

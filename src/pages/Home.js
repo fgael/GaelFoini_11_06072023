@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { fetchAccommodationListings } from "../services/fetchAPI";
 import Banner from "../components/Banner";
 import AccommodationCard from "../components/AccommodationCard";
-import homeBanner from "../img/home-banner.png";
+import homeBanner from "../assets/img/home-banner.png";
 
 const Home = () => {
   // definition des varariables d'etat à l'aide du hook useState

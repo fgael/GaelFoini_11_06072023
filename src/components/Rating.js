@@ -1,5 +1,5 @@
 import React from "react";
-import star from "../img/icons/star.svg";
+import star from "../assets/icons/star.svg";
 
 const Rating = ({ rating }) => {
   const stars = [];

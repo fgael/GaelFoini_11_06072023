@@ -1,7 +1,7 @@
 import React from "react";
 import Banner from "../components/Banner";
 import Expander from "../components/Expander";
-import aboutBannerImg from "../img/about-banner.png";
+import aboutBannerImg from "../assets/img/about-banner.png";
 
 const About = () => {
   return (

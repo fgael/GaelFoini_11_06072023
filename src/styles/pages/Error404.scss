@@ -10,12 +10,12 @@
   }
   .error-message {
     font-size: 36px;
-    font-weight: 500;
+    font-weight: $font-weight-medium;
     color: $color-orange;
   }
   .home-link {
     font-size: $font-medium;
-    font-weight: 500;
+    font-weight: $font-weight-medium;
     color: $color-orange;
     text-decoration: underline;
   }

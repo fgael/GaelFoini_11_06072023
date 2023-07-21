@@ -4,13 +4,13 @@
     justify-content: space-between;
     h2 {
       font-size: 36px;
-      font-weight: $font-medium;
+      font-weight: $font-weight-medium;
       color: $color-orange;
       margin-bottom: 0;
     }
     h4 {
-      font-size: 18px;
-      font-weight: $font-medium;
+      font-size: $font-medium;
+      font-weight: $font-weight-medium;
       color: $color-orange;
     }
     .location {
@@ -49,10 +49,10 @@
     .main-top-container {
       display: block;
       h2 {
-        font-size: 18px;
+        font-size: $font-medium;
       }
       h4 {
-        font-size: 14px;
+        font-size: $font-small;
       }
       .main-top-container-right {
         margin-top: 0.8rem;
