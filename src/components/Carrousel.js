@@ -14,6 +14,7 @@ const Carrousel = ({ accommodation }) => {
   };
 
   // fonction pour passer vers l'image suivante
+  // modulo pour s'assurer de rester dans l'index après la derniere image
   const handleNextImage = () => {
     setCurrentImageIndex(
       (prevIndex) => (prevIndex + 1) % accommodation.pictures.length
