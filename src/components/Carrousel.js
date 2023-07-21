@@ -25,7 +25,7 @@ const Carrousel = ({ accommodation }) => {
     accommodation.pictures.length
   }`;
 
-  // ne pas affichier les fleches si une seule image
+  // ne pas afficher de carrousel si accommodation est vide
   if (Object.keys(accommodation).length === 0) {
     return null;
   }
