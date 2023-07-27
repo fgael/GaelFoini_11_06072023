@@ -8,7 +8,7 @@ import Error404 from "../pages/Error404";
 
 const AppRouter = () => {
   return (
-    <BrowserRouter basename="/GaelFoini_11_06072023">
+    <BrowserRouter>
       <AppWrapper>
         <Routes>
           <Route path="/" element={<Home />} />
